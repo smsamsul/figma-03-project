@@ -1,0 +1,287 @@
+@media(min-width: 320px) and (max-width:769px){
+
+    .container {
+        max-width: 100%;
+        box-sizing: border-box;
+		padding: 0 14px;
+    }
+    
+   nav .flex{
+    flex-direction: column;
+   }
+   nav .logo {
+	width: 100%;
+	justify-content: flex-start;
+}
+nav .nav_item .itmes {
+	
+	row-gap: 16px;
+}
+
+nav .nav_item {
+	width: 100%;
+	justify-content: flex-start;
+	position: relative;
+	background-color: #f1f1f187;
+	padding: 10px 10px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	display: none;
+	
+
+}
+nav input:checked ~ .nav_item{
+	display: block;
+	
+	
+}
+nav label{
+	position: absolute;
+	top: 59px;
+	right: 100px;
+	background-color: aliceblue;
+	display: block;
+}
+nav .nav_item .itmes {
+	align-items: flex-start;
+}
+
+nav .nav_item a {
+	position: absolute;
+	left: 0;
+	top: 243px;
+}
+.banner_text {
+	width: 100%;
+	margin-top: 215px;
+}
+nav .nav_item .itmes li:hover .dropdown {
+	z-index: 1;
+}
+.banner .banner_text h1 {
+	width: auto;
+	font-size: 21px;
+}
+.banner .banner_text h1 img {
+	position: absolute;
+	right: 3px;
+	bottom: -26px;
+	animation: none;
+}
+.banner .banner_text .trip .trip_item {
+	width: 100%;
+
+}
+.banner .banner_text .trip .trip_item .trip_item_text h4 {
+	font-size: 14px;
+}
+.banner .banner_text .trip .trip_item .trip_item_text p {
+	column-gap: 0px;
+	
+}
+.banner .banner_text .trip {
+	column-gap: 17px;
+	padding: 0 10px;
+	flex-direction: column;
+}
+.banner .from_box .box {
+	width: 100%;
+	
+}
+
+
+.banner .from_box .box form {
+	flex-direction: column;
+	row-gap: 20px;
+}
+.banner .from_box {
+	width: 100%;
+	flex-direction: column;
+}
+.banner .from_box {
+	padding: 31px;
+
+}
+.banner .from_box select {
+	padding-right: 0;
+	margin-left: 8px;
+}
+.banner .from_box button {
+	margin-top: 25px;
+}
+.banner .from_box .box .box_container::before {
+
+	display: none;
+}
+.banner .from_box .box .box_container::after {
+	display: none;
+}
+.banner .from_box .box .box_container p::after {
+	
+	display: none;
+}
+.service .service_head h2 {
+	font-size: 25px;
+}
+.service .service_main {
+	flex-direction: column;
+}
+.service .service_main .service_item {
+	width: 100%;
+}
+
+.service .service_main .service_item .shape {
+	left: 106px;
+}
+.service .service_main .service_item p {
+	width: auto;
+
+}
+.top_selling .top_selling_head h2 {
+	font-size: 25px;
+
+}
+
+.top_selling .top_selling_main {
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.top_selling .top_selling_main .top_item {
+	width: 100%;
+	
+}
+.top_selling {
+	padding: 0 0;
+}
+.esay_fast .Easy_fast_main {
+	flex-direction: column;
+	row-gap: 15px;
+}
+.esay_fast .Easy_fast_main .left .top_selling_head h2 {
+	width: auto;
+	font-size: 20px;
+}
+.esay_fast .Easy_fast_main .left {
+	width: 100%;
+}
+.esay_fast .Easy_fast_main .left .item p {
+	width: auto;
+}
+.esay_fast .Easy_fast_main .right {
+	width: 100%;
+	
+}
+.esay_fast .Easy_fast_main .right .right_item {
+	
+	width: auto;
+	
+}
+.esay_fast .Easy_fast_main .right .itema {
+
+	padding: 20px 24px 0px 0;
+	
+}
+.esay_fast .Easy_fast_main .right .right_item {
+	left: -1%;
+	bottom: -146px;
+	animation: none;
+}
+
+.about .about_main{
+	flex-direction: column;
+}
+.about .about_main .left {
+	width: 100%;
+}
+.left .top_selling_head h2{
+	font-size: 24px;
+}
+.about .about_main .right {
+	width: 100%;
+	
+}
+.about .about_main .right .box_one p {
+	width: auto;
+	line-height: 32px;
+}
+.about .about_main .right .box_two {
+	width: auto;
+	left: -177px;
+     top: -29px;
+    padding: 34px 27px;
+	
+}
+.about .about_main .right .box_one {
+	width: auto;
+	padding: 34px 0;
+}
+.about .about_main .right img {
+	transform: translateX(-50%);
+	left: 50%;
+	
+}
+.company .company_hed {
+	flex-direction: column;
+	row-gap: 40px;
+}
+
+.company .company_hed .item {
+	width: 100%;
+	
+}
+
+.company .company_main h2 {
+	font-size: 26px;
+}
+.subscribe .subscribe_main h2 {
+	width: auto;
+	font-size: 16px;
+}
+.subscribe .subscribe_main .flex {
+flex-direction: column;
+row-gap: 14px;
+}
+.subscribe .subscribe_main .flex .email_box {
+	width: auto;
+	
+}
+.subscribe .subscribe_main {
+background-image: none;
+	
+}
+.subscribe {
+	margin-bottom: 58px;
+}
+.footer .footer_main{
+	flex-direction: column;
+	text-align: center;
+}
+.footer .footer_main .item {
+	width: 80%;
+
+}
+.footer .footer_main .item p {
+	
+	width: auto;
+	
+}
+.footer .footer_main .item .icon {
+	
+	display: revert;
+}
+.footer .footer_main .item .flexa {
+display: revert;
+}
+.subscribe .subscribe_main img {
+	display: none;
+}
+
+
+
+:root{
+	overflow-x: hidden;
+}
+
+}
